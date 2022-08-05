@@ -1,9 +1,16 @@
-import DefaultTemplate from "../templates/Default";
+import { Container } from 'src/components/Core/Container';
+import { Headline } from 'src/components/Headline';
+import DefaultTemplate from '../templates/Default';
 
-export default function Home(){
-  return(
+export default function Home() {
+  return (
     <DefaultTemplate>
-      <h1>This is my Main</h1>
+      <Headline title="Title" subtitle='Subtitle'/>
+      <Container>
+        <section>
+          <article>My Article</article>
+        </section>
+      </Container>
     </DefaultTemplate>
-  )
+  );
 }
