@@ -27,7 +27,7 @@ export const globalStyles = globalCss({
   },
 
   body: {
-    backgroundColor: '$neutalLightMedium',
+    backgroundColor: '$neutalLightPure',
     color: '$neutralDarkMedium',
   },
 
