@@ -1,9 +1,15 @@
 {
-   "compilerOptions": {
-     "baseUrl": ".",
-     "paths": {
-       "@Styles/*": ["./src/styles/*"],
-     }
-   }
- }
- 
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@Styles/*": ["./src/styles/*"],
+      "@Sections/*": ["./src/sections/*"],
+      "@Pages/*": ["./src/pages/*"],
+      "@Core/*": ["./src/core/*"],
+      "@Contexts/*": ["./src/contexts/*"],
+      "@Hooks/*": ["./src/hooks/*"],
+      "@Models/*": ["./src/models/*"],
+      "@Services/*": ["./src/services/*"]
+    }
+  }
+}
