@@ -1,6 +1,8 @@
+import { IoIosMenu } from 'react-icons/io';
 import * as MaterialDesign from 'react-icons/md';
 
 export const icons = {
+  menu: IoIosMenu,
   chevronLeft: MaterialDesign.MdChevronLeft,
   chevronRight: MaterialDesign.MdChevronRight,
 };

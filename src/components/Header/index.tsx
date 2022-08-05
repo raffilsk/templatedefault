@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import IconCore from '../Core/Icons';
+import IconComponent from '../Core/ReactIcons';
 import { Navigation } from './Navigation';
 import { WrapperHeader, Button, Content } from './styles';
 
@@ -14,7 +14,7 @@ export function Header() {
         <Navigation/>
       </Content>
       <Button onClick={HandleShowMenu}>
-        <IconCore size="2rem" name="menu" color="#fff" />
+        <IconComponent size="2rem" name="menu" color="#fff" />
       </Button>
     </WrapperHeader>
   );
