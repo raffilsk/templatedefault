@@ -1,3 +1,4 @@
+import { Container } from "../Core/Container";
 import { Wrapper } from "./styles";
 
 interface HeadlineProps{
@@ -8,8 +9,10 @@ interface HeadlineProps{
 export function Headline({title, subtitle}:HeadlineProps) {
   return (
     <Wrapper>
-      <h2>{title}</h2>
-      <h3>{subtitle}</h3>
+      <Container css={{ flexDirection: 'column'}}>
+        <h2>{title}</h2>
+        <h3>{subtitle}</h3>
+      </Container>
     </Wrapper>
   );
 }
