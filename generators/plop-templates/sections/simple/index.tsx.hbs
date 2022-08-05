@@ -1,0 +1,9 @@
+import type * as Stitches from '@stitches/react'; import * as S from './styles';
+type
+{{pascalCase name}}SectionProps = { css?: Stitches.CSS; }; export default
+function
+{{pascalCase name}}({ css, ...props }:
+{{pascalCase name}}SectionProps) { return (<S.Wrapper
+  css='{css}'
+  {...props}
+><span>{{pascalCase name}}</span></S.Wrapper>); }
