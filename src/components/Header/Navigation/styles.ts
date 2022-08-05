@@ -15,7 +15,7 @@ export const Nav = styled('nav', {
       color: '$neutalLightPure'
    },
    '@lgUp': {
-      margin: '1.5rem',
+      margin: '1.5rem 0',
       flexDirection: 'row',
       fontSize: '1rem',
       height: 'auto',

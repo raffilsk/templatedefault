@@ -28,6 +28,7 @@ export const Button = styled('button', {
   border: '0px',
   cursor: 'pointer',
   position: 'absolute',
-  right: '0',
+  right: '0.5rem',
+  top: '0.5rem',
   '@lgUp': { display: 'none' },
 });
